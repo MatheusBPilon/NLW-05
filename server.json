@@ -3,7 +3,7 @@
         "id": "a-importancia-da-contribuicao-em-open-source",
         "title": "Faladev #30 | A importância da contribuição em Open Source",
         "members": "Diego Fernandes e João Pedro",
-        "published": "2021-01-22 16:35:40",
+        "published_at": "2021-01-22 16:35:40",
         "thumbnail": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
         "description": "<p> Nesse episódio do Faladev, Diego Fernandes se reune com Joao Pedro",
         "file": {
@@ -12,10 +12,34 @@
             "duration": "3981"
         }
     }, {
-        "id": "a-importancia-da-contribuicao-em-open-source",
-        "title": "Faladev #30 | A importância da contribuição em Open Source",
-        "members": "Diego Fernandes e João Pedro",
-        "published": "2021-01-22 16:35:40",
+        "id": "segundo a-importancia-da-contribuicao-em-open-source",
+        "title": "segundo Faladev #30 | A importância da contribuição em Open Source",
+        "members": "segundo e João Pedro",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p> Nesse episódio do Faladev, Diego Fernandes se reune com Joao Pedro",
+        "file": {
+            "url": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
+            "type": "audio/x-m4a",
+            "duration": "3981"
+        }
+    }, {
+        "id": "terceiro a-importancia-da-contribuicao-em-open-source",
+        "title": "terceiro Faladev #30 | A importância da contribuição em Open Source",
+        "members": "terceiro e João Pedro",
+        "published_at": "2021-01-22 16:35:40",
+        "thumbnail": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
+        "description": "<p> Nesse episódio do Faladev, Diego Fernandes se reune com Joao Pedro",
+        "file": {
+            "url": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
+            "type": "audio/x-m4a",
+            "duration": "3981"
+        }
+    }, {
+        "id": "quarto a-importancia-da-contribuicao-em-open-source",
+        "title": "quarto Faladev #30 | A importância da contribuição em Open Source",
+        "members": "quarto e João Pedro",
+        "published_at": "2021-01-22 16:35:40",
         "thumbnail": "http://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/opensource.jpg",
         "description": "<p> Nesse episódio do Faladev, Diego Fernandes se reune com Joao Pedro",
         "file": {
