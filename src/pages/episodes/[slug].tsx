@@ -1,12 +1,15 @@
-import { parseISO } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
-import format from 'date-fns/format'
-import { GetStaticPaths, GetStaticProps } from 'next'
 import Link from 'next/link'
-import { api } from '../../services/api'
-import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString'
-import styles from './episode.module.scss'
 import Image from 'next/image'
+import Header from 'next/head'
+import format from 'date-fns/format'
+import styles from './episode.module.scss'
+import { api } from '../../services/api'
+import { parseISO } from 'date-fns'
+import { usePlayer } from '../../contexts/PlayerContext'
+import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString'
+import { GetStaticPaths, GetStaticProps } from 'next'
+
 
 type Episode = {
     id: string,
@@ -28,10 +31,15 @@ type EpisodeProps = {
 
 export default function Episode({ episode }: EpisodeProps) {
 
+    const { play } = usePlayer()
+
     return (
         <div className={
             styles.episode
         }>
+            <Header>
+                <title>{episode.title} | Podcastr</title>
+            </Header>
             <div className={
                 styles.thumbnailContainer
             }>
@@ -46,11 +54,11 @@ export default function Episode({ episode }: EpisodeProps) {
                         episode.thumbnail
                     }
                     objectFit="cover" />
-                <Link href={`/`}>
-                    <button type="button">
-                        <img src="/play.svg" alt="Tocar Episódio" />
-                    </button>
-                </Link>
+
+                <button type="button" onClick={() => play(episode)}>
+                    <img src="/play.svg" alt="Tocar Episódio" />
+                </button>
+
             </div>
 
             <header>
